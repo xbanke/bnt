@@ -45,6 +45,7 @@ for i=1:2:length(varargin)
    case 'anneal_rate', anneal_rate = varargin{i+1}; 
    case 'init_temp', init_temp = varargin{i+1}; 
    case 'final_temp', final_temp = varargin{i+1}; 
+   case 'verbose', verbose = varargin{i+1};
    otherwise, error(['unrecognized argument' varargin{i}])
   end
 end
